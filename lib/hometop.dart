@@ -24,7 +24,7 @@ static const TextStyle dropDownMenuItemStyle =
         ClipPath(
           clipper: CustomSClipper(),
           child: Container(
-            height: MediaQuery.of(context).size.height * 0.65 ,
+            height: MediaQuery.of(context).size.height * 0.63 ,
            decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [

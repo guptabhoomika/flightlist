@@ -1,3 +1,4 @@
+import 'package:flightlist/homebottom.dart';
 import 'package:flutter/material.dart';
 
 import 'colors.dart';
@@ -28,7 +29,8 @@ class MyHomePage extends StatelessWidget {
       body: SingleChildScrollView(
               child: Column(
           children: <Widget>[
-            HomeTop()
+            HomeTop(),
+            HomeBottom()
           ],
         ),
       ),
