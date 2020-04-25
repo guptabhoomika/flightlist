@@ -30,7 +30,8 @@ class MyHomePage extends StatelessWidget {
               child: Column(
           children: <Widget>[
             HomeTop(),
-            HomeBottom()
+            HomeBottom(),
+
           ],
         ),
       ),

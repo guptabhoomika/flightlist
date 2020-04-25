@@ -83,7 +83,7 @@ static const TextStyle dropDownMenuItemStyle =
                  SizedBox(height: 30,),
                  Padding(padding: EdgeInsets.symmetric(horizontal: 30),
                  child: Material(
-                   elevation: 0.0,
+                   elevation: 2.0,
                    borderRadius:BorderRadius.circular(50),
                    child: TextField(
                       decoration: InputDecoration(
